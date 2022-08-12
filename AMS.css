@@ -1,0 +1,127 @@
+h1, legend, p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(210, 27, 27);
+}
+fieldset {
+    width: 400px;
+    border-color: #f9fcd0;
+    border-width: 2px;
+    margin:auto;
+    border-radius: 10px;
+}
+label, select {
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    float:left;
+    margin-top: 5.8px;
+}
+select {
+    float:right;
+    background-color: rgb(210, 27, 27);
+    color:antiquewhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size: 12pt;
+    font-weight: lighter;
+    margin-top: -20px;
+    border-radius: 3.5px;
+}
+p {
+    margin-top: -35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 35pt;
+    margin-top: 7pt;
+}
+legend {
+    font-size: 20pt;
+
+}
+label {
+    font-size: 13pt;
+    text-align: left;
+    margin-left: 20pt;
+    color:antiquewhite;
+}
+* {
+    text-align:center;
+    scroll-behavior: smooth;
+    background-color: #013F4A;
+}
+/* CHECKBOX STYLE*/
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+input[type="checkbox"] {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #f9fcd0;
+    border-radius: 3.5px;
+}
+input[type="checkbox"]:checked {
+    background-color:#013F4A
+}
+input.action:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #dc1d39;
+}
+input.psych:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #a29ba9;
+}
+input.sad:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #4f9cba;
+}
+input.sol:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #6eb95c;
+}
+input.com:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #f1c32c;
+}
+input.rom:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #f7788b;
+}
+input.myst:hover {
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance:none;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: #895497;
+}
