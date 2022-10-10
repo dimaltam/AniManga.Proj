@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Animanga Watchlist</title>
+        <link rel="stylesheet" href="AMS.css"/>
+        <!-- The meta element below makes sure the page looks similar on a phone as it does on a laptop/desktop-->
+        <meta name="view" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Animanga</h1>
+        <p>Watchlist & TBR</p>
+        <form>
+            <!-- start with input type checklist and add label and for attribute by setting it to the input's id-->
+            <!-- include name and id: name being anime or manga id being the anime/manga's name -->
+            <!-- After each input and label add 
+                <input id="" name="Anime/Manga" type="checkbox"><label for="same as id" class="strikethrough"></label>
+                    <select name="rating">
+                        <option value="">Rating</option>
+                        <option value="1">S</option>
+                        <option value="2">A</option>
+                        <option value="3">B</option>
+                        <option value="4">C</option>
+                        <option value="5">D</option>
+                    </select> -->
+                <!-- ANIME -->
+            <div class="center">
+                <fieldset>
+                    <legend>Anime</legend>
+                    <input id="Demon Slayer" type="checkbox" name="Anime" class="action"> <label for="Demon Slayer" class="strikethrough">Demon Slayer</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Naruto" type="checkbox" name="Anime" class="action"><label for="Naruto" class="strikethrough">Naruto</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="My Hero Academia" type="checkbox" name="Anime" class="action"><label for="My Hero Academia" class="strikethrough">My Hero Academia</label>
+                        <select name="rating">
+                            <option vaue="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Bungo Stray Dogs" type="checkbox" name="Anime" class="myst"><label for="Bungo Stray Dogs" class="strikethrough">Bungo Stray Dogs</label>
+                        <select name="rating">
+                            <option vaue="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Haikyuu" name="Anime" type="checkbox" class="sol"><label for="Haikyuu" class="strikethrough">Haikyuu</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Doctor Stone" name="Anime" type="checkbox" class="action"><label for="Doctor Stone" class="strikethrough">Doctor Stone</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                        <input id="Jujutsu Kaisen" type="checkbox" name="Anime" class="action"><label for="Jujutsu Kaisen" class="strikethrough">Jujutsu Kaisen</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Attack on Titan" type="checkbox" name="Anime" class="action"><label for="Attack on Titan" class="strikethrough">Attack on Titan</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="One Piece" name="Anime" type="checkbox" class="action"><label for="One Piece" class="strikethrough">One Piece</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Fullmetal Alchemist Brotherhood" name="Anime" type="checkbox" class="action"><label for="Fullmetal Alchemist Brotherhood" class="strikethrough">Fullmetal Alchemist Brotherhood</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Hyouka" name="Anime" type="checkbox" class="myst"><label for="Hyouka" class="strikethrough">Hyouka</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="The Disastrous Life of Saiki K." name="Anime" type="checkbox" class="com"><label for="The Disastrous Life of Saiki K." class="strikethrough">The Disastrous Life of Saiki K.</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input type="checkbox" id="From Me to You" name="Anime" class="rom"><label for="From Me to You" class="strikethrough">From Me to You</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Gintama" name="Anime" type="checkbox" class="action"><label for="Gintama" class="strikethrough">Gintama</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Horimiya" name="Anime" type="checkbox" class="rom"><label for="Horimiya" class="strikethrough">Horimiya</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Life Lessons with Uramichi Oniisan" name="Anime" type="checkbox" class="com"><label for="Life Lessons with Uramichi Oniisan" class="strikethrough">Life Lessons with Uramichi Oniisan</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Cowboy Bebop" name="Anime" type="checkbox" class="action"><label for="Cowboy Bebop" class="strikethrough">Cowboy Bebop</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option valuie="5">D</option>
+                        </select>
+                    <input id="Fire Force" name="Anime" type="checkbox" class="action"><label for="Fire Force" class="strikethrough">Fire Force</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Blue Spring Ride" name="Anime" type="checkbox" class="rom"><label for="Blue Spring Ride" class="strikethrough">Blue Spring Ride</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Yona of the Dawn" name="Anime" type="checkbox" class="rom"><label for="Yona of the Dawn" class="strikethrough">Yona of the Dawn</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Bleach" name="Anime" type="checkbox" class="action"><label for="Bleach" class="strikethrough">Bleach</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Fruits Basket" name="Anime" type="checkbox" class="rom"><label for="Fruits Basket" class="stikethrough">Fruits Basket</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Black Clover" name="Anime" type="checkbox" class="action"><label for="Black Clover" class="stikethrough">Black Clover</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Magi" name="Anime" type="checkbox" class="action"><label for="Magi" class="strikethrough">Magi</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Hunter x Hunter" name="Anime" type="checkbox" class="action"><label for="Hunter x Hunter" class="stikethrough">Hunter x Hunter</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Relife" name="Anime" type="checkbox" class="sol"><label for="Relife" class="strikethrough">Relife</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Spy x Family" name="Anime" type="checkbox" class="com"><label for="Spy x Family" class="strikethrough">Spy x Family</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Takt Op" name="Anime" type="checkbox" class="action"><label for="Takt Op" class="strikethrough">Takt Op</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Durarara" name="Anime" type="checkbox" class="myst"><label for="Durarara" class="strikethrough">Durarara</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Baccano" name="Anime" type="checkbox" class="myst"><label for="Baccano" class="strikethrough">Baccano</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Watakoi" name="Anime" type="checkbox" class="sol"><label for="Watakoi" class="strikethrough">Watakoi</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Vinland Saga" name="Anime" type="checkbox" class="action"><label for="Vinland Saga" class="strikethrough">Vinland Saga</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Mob Psycho" name="Anime" type="checkbox" class="com"><label for="Mob Psycho" class="strikethrough">Mob Psycho</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Charlotte" name="Anime" type="checkbox" class="rom"><label for="Charlotte" class="strikethrough">Charlotte</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Re:zero" name="Anime" type="checkbox" class="action"><label for="Re:zero" class="strikethrough">Re:zero</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Dororo" name="Anime" type="checkbox" class="action"><label for="Dororo" class="strikethrough">Dororo</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Hinamatsuri" name="Anime" type="checkbox" class="com"><label for="Hinamatsuri" class="strikethrough">Hinamatsuri</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Moriarty the Patriot" name="Anime" type="checkbox" class="myst"><label for="Moriarty the Patriot" class="strikethrough">Moriarty the Patriot</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">s</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Monster" name="Anime" type="checkbox" class="psych"><label for="Monster" class="strikethrough">Monster</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Your Lie in April" name="Anime" type="checkbox" class="sad"><label for="Your Lie in April" class="strikethrough">Your Lie in April</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="I Want to Eat Your Pancreas" name="Anime" type="checkbox" class="sad" ><label for="I Want to Eat Your Pancreas" class="strikethrough">I Want to Eat Your Pancreas</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Kamisama Kiss" name="Anime" type="checkbox" class="rom"><label for="Kamisama Kiss" class="strikethrough">Kamisama Kiss</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="91 Days" name="Anime" type="checkbox" class="psych"><label for="91 Days" class="strikethrough">91 Days</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Beyond the Boundary" name="Anime" type="checkbox" class="sol"><label for="Beyond the Boundary" class="strikethrough">Beyond the Boundary</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Blue Exorcist" name="Anime" type="checkbox" class="action"><label for="Blue Exorcist" class="strikethrough">Blue Excorcist</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Blue Period" name="Anime" type="checkbox" class="sol"><label for="Blue Period" class="strikethrough">Blue Period</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                </fieldset>
+            </div>
+        </form>
+        <form>
+            <!-- MANGA -->
+            <div>
+                <fieldset>
+                    <legend>Manga</legend>
+                    <input id="Hell's Paradise" name="Manga" type="checkbox" class="action"><label for="Hell's Paradise" class="strikethrough">Hell's Paradise</label>   
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Homunculus" name="Manga" type="checkbox" class="psych"><label for="Homunculus" class="strikethrough">Homunculus</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Chainsaw Man" name="Manga" type="checkbox" class="action"><label for="Chainsaw Man" class="strikethrough">Chainsaw Man</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Jujutsu Kaisen Manga" name="Manga" type="checkbox" class="action"><label for="Jujutsu Kaisen Manga" class="strikethrough">Jujutsu Kaisen</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="One Piece Manga" name="Manga" type="checkbox" class="action"><label for="One Piece Manga" class="strikethrough">One Piece</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Black Torch" name="Manga" type="checkbox" class="action"><label for="Black Torch" class="strikethrough">Black Torch</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Dandadan" name="Manga" type="checkbox" class="action"><label for="Dandadan" class="strikethrough">Dandadan</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Goodbye Eri" name="Manga" type="checkbox" class="sad"><label for="Goodbye Eri" class="strikethrough">Goodbye Eri</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Black Clover Manga" name="Manga" type="checkbox" class="action"><label for="Black Clover Manga" class="strikethrough">Black Clover</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Haikyuu Manga" name="Manga" type="checkbox" class="sol"><label for="Haikyuu Manga" class="strikethrough">Haikyuu</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Dorohedoro" name="Manga" type="checkbox" class="action"><label for="Dorohedoro" class="strikethrough">Dorohedoro</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Bleach Manga" name="Manga" type="checkbox" class="action"><label for="Bleach Manga" class="strikethrough">Bleach</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Tokyo Ghoul" name="Manga" type="checkbox" class="psych"><label for="Tokyo Ghoul" class="strikethrough">Tokyo Ghoul</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Berserk" name="Manga" type="checkbox" class="action"><label for="Berserk" class="strikethrough">Berserk</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Blue Flag" name="Manga" type="checkbox" class="rom"><label for="Blue Flag" class="strikethrough">Blue Flag</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Edens Zero" name="Manga" type="checkbox" class="action"><label for="Edens Zero" class="strikethrough">Edens Zero</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Au Haru Ride" name="Manga" type="checkbox" class="rom"><label for="Au Haru Ride" class="strikethrough">Au Haru Ride</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Under the Moonlit Dusk" name="Manga" type="checkbox" class="rom"><label for="Under the Moonlit Dusk" class="strikethrough">Under the Moonlit Dusk</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Earthchild" name="Manga" type="checkbox" class="action"><label for="Earthchild" class="trikethrough">Earthchild</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Fire Punch" name="Manga" type="checkbox" class="action"><label for="Fire Punch" class="strikethrough">Fire Punch</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                    <input id="Wind Breaker" name="Manga" type="checkbox" class="action"><label for="Wind Breaker" class="strikethrough">Wind Breaker</label>
+                        <select name="rating">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select>
+                        <!--<select name="status" id="WB">
+                            <option value="">Status</option>
+                            <option value="1" class="watching">Watching</option>
+                            <option value="2" class="on-hold">On-Hold</option>
+                            <option value="3" class="planned">Planned</option>
+                            <option value="4" class="watched">Watched</option>
+                            <option value="5" class="dropped">Dropped</option>
+                        </select> -->
+                    
+                    <input id="Solo Leveling" name="Manga" type="checkbox" class="action"><label for="Solo Leveling" class="strikethrough">Solo Leveling</label>
+                        <select name="rating">
+                            <option value="">Rating</option>
+                            <option value="1">S</option>
+                            <option value="2">A</option>
+                            <option value="3">B</option>
+                            <option value="4">C</option>
+                            <option value="5">D</option>
+                        </select> 
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
+
+<!-- AN OPTION FOR STATUS 
+    not sure about the watched option tho, considering the checklist that crossed the title
+
+    <select name="status">
+    <option value="">Status</option>
+    <option value="1" class="watching">Watching</option>
+    <option value="2" class="on-hold">On-Hold</option>
+    <option value="3" class="planned">Planned</option>
+    <option value="4" class="watched">Watched</option>
+    <option value="5" class="dropped">Dropped</option>
+
+    add CSS plan for title status changes design/color
+    Watching (bold)
+    Watched (strikethrough _established_)
+    Dropped (red)
+    On Hold (yellow _deep_)
+    Plan to watch (Natural _established_)
+    Added via above select option but css div and sizing will need readjustments
+
+    option.watching + label.strikethrough{
+        text-decoration: bold;
+    }
+    option.on-hold{
+        
+    }
+    
+NOTE: designing the option class via css won't affect the title, just the option itself
+
+    option.status(dependson)
+</select> -->

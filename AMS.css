@@ -7,7 +7,7 @@ fieldset {
     border-color: #f9fcd0;
     border-width: 2px;
     margin:auto;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 label, select {
     display: block;
@@ -125,3 +125,20 @@ input.myst:hover {
     height: 13.5px;
     background-color: #895497;
 }
+
+
+select[option="1"] + label.strikethrough {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+
+/*
+select[option="Watching"]::selection + label[for="WB"] {
+    color:#f1c32c;
+}
+div.nime + option.watching + label.strikethrough {
+    color:#f1c32c;
+}
+
+*/
